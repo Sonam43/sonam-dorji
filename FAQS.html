@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Page</title>
+    <link rel="stylesheet" href="FAQS.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="un logo.jpg" alt="un logo"></a>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Aboutus.html">About Us</a>
+            <a href="member.html">Members</a>
+            <a href="event.html">Events</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="FAQS.html">FAQs</a>
+        </nav>
+    </header>
+
+    <div class="faq-container">
+        <h1>Frequently Asked Questions</h1>
+
+        <div class="faq">
+            <h3 class="faq-question">What is Sherubtse United Nations Club?</h3>
+            <div class="faq-answer">
+                <p>The Sherubtse United Nations Club is a student organization focused on promoting UN values and activities within the college community.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-question">How can I join the club?</h3>
+            <div class="faq-answer">
+                <p>You can join the club by filling out a membership form and attending our meetings. More information is available on our website.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-question">What are the benefits of joining the Sherubtse United Nations Club?</h3>
+            <div class="faq-answer">
+                <p>Members gain insights into global issues, participate in various events, and develop skills in diplomacy, leadership, and teamwork.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-question">Does the club organize any events?</h3>
+            <div class="faq-answer">
+                <p>Yes, the club organizes events such as workshops, seminars, debates, and Model United Nations (MUN) simulations.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-question">How often does the club meet?</h3>
+            <div class="faq-answer">
+                <p>The club holds regular meetings, typically bi-weekly, to discuss upcoming events, ongoing projects, and other club activities.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-question">Who can I contact for more information?</h3>
+            <div class="faq-answer">
+                <p>You can reach out to the club’s executive members listed on the 'Our Team' section on the website, or contact us via email provided on the contact page.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-question">Are there any fees associated with membership?</h3>
+            <div class="faq-answer">
+                <p>Yes, there is a small membership fee to help support club activities, which will be discussed during the orientation session for new members.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-question">What kind of events can I participate in as a member?</h3>
+            <div class="faq-answer">
+                <p>As a member, you can participate in debates, community service projects, leadership workshops, and even international MUN conferences.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-question">How can I stay updated on club events?</h3>
+            <div class="faq-answer">
+                <p>Updates are shared through our social media channels and the club’s website. We also announce details in our meetings.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-question">Is there an opportunity to hold leadership roles in the club?</h3>
+            <div class="faq-answer">
+                <p>Yes, members have opportunities to run for executive positions or lead specific projects and events throughout the academic year.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <h3 class="faq-question">Can non-members attend club events?</h3>
+            <div class="faq-answer">
+                <p>Yes, some events are open to non-members. However, membership may be required for certain exclusive activities and meetings.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const questions = document.querySelectorAll('.faq-question');
+        questions.forEach(question => {
+            question.addEventListener('click', () => {
+                question.nextElementSibling.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
